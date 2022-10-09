@@ -12,6 +12,7 @@ const Header = () => {
         <h2>ADEBISI OLUWAROTIMI</h2>
         <h5 className='text-light'>Fullstack Developer</h5>
         <CTA />
+        <HeaderSocials />
         
        
         <div className="me">
@@ -20,7 +21,7 @@ const Header = () => {
         
         <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div>
-      <HeaderSocials />
+      
     </header>
   )
 }
