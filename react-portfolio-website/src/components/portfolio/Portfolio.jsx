@@ -58,7 +58,7 @@ const Portfolio = () => {
             <img src={img4} alt='' />
           </div>
           <div className="portfolio__item-cta">
-            <h3>Website Built For "Organic Foods" For Online Orders</h3>
+            <h3>Website Built For "Organic Foods" Online Orders</h3>
             <a href="https://pedantic-payne-d7d724.netlify.app/" className='btn btn-primary' target='_blank'> Live Demo</a>
           </div>
           </article>

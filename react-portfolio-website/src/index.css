@@ -18,7 +18,7 @@
     --transition: all 400ms ease;
     --container-width-lg: 75%;
     --container-width-md:86%;
-    --constainer-width-sm:90%;
+    --container-width-sm:90%;
 }
 html{
     scroll-behavior: smooth;
