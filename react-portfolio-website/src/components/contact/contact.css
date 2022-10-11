@@ -4,6 +4,10 @@
     grid-template-columns: 38% 58%;
     gap: 12%;
 }
+h3{
+    text-align: center;
+    color: var(--color-light);
+}
 .contact__cards{
     display: flex;
     flex-direction: column;

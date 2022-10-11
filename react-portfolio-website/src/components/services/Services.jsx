@@ -16,27 +16,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Work with design team to build web paltforms</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Interface with clients, providing technological expertise .</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Building User Interface and Experience Designs</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Increasing the quantity and quality of traffic to your website through organic search engine results</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Maintenance of Websites to safeguard all types of data against theft and loss</p>
             </li>
           </ul>
         </article>
@@ -47,27 +43,20 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Generating Topic Ideas Appealling To Clients And Intended Cosumers</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Understanding Target Market and Pinpointing User's Objection</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Creating Content Around Those Ideas, And 
+                Making Information Accessible</p>
             </li>
             <li>
               <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <BiCheck  className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit.</p>
+              <p>Organise Website Content Components, Build and Test Website Content's Structure</p>
             </li>
           </ul>
         </article>

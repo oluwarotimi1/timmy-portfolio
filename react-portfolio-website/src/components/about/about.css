@@ -84,6 +84,10 @@
     }
  }
  @media screen and (max-width: 600px){
+
+    #about{
+        margin-top: 1rem;
+    }
   
     .about__me{
         width: 65%;

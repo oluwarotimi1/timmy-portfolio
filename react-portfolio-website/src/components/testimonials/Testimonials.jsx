@@ -14,13 +14,13 @@ import "swiper/css/pagination";
 
 const data=[
   {
-    avatar: AVATAR1,
-    name:'Esther Paul',
+    avatar: AVATAR2,
+    name:'Daniel Akinwande',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
   },
   {
-    avatar: AVATAR2,
-    name:'Peter Atabo',
+    avatar: AVATAR1,
+    name:'Esther Paul',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
   },
   {
@@ -33,7 +33,7 @@ const data=[
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
+      <h5>Client's Review</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container mySwiper"

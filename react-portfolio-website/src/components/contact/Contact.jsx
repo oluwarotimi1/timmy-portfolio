@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useTransition} from 'react'
 import './contact.css'
 
 import {AiOutlineMail} from 'react-icons/ai'
@@ -9,17 +9,27 @@ import {FiTwitter} from 'react-icons/fi'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
+import swal from 'sweetalert';
+
+
 const Contact = () => {
   
   const form = useRef();
-
-
+  
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_dprzees', 'template_vni1ikz', form.current, 'AfLU6DhGI7RLVQiQP')
       
-    e.target.reset()  
+    e.target.reset() 
+    
+    swal({
+      title: "Message Sent",
+      text: "A Reply Will Be Sent To Your Email Shortly, Thanks!",
+      icon: "success",
+      button: "Return To Porfolio",
+    });
     // .then((result) => {
     //       console.log(result.text);
     //   }, (error) => {
@@ -27,10 +37,16 @@ const Contact = () => {
     //   });
   };
 
+  const [startTransition] = useTransition({
+    timeoutMs:5000
+  })
+
   return (
     <section className="container" id="contact">
       <h5>Get In Touch</h5>
+      <h3> I build SEO friendly website. Lets build something superb!!</h3>
       <h2>Contact Me</h2>
+      
 
       <div className="container contact__container">
           <div className="contact__cards">
@@ -62,12 +78,12 @@ const Contact = () => {
                 {/* END OF CONTACT OPTIONS */}
 
           <form ref={form} onSubmit={sendEmail}>
-            <input type='text' name='name' placeholder='Enter Full Name' required/>
-            <input type='email' name='email' placeholder='your email' required />
+            <input type='text' name='name' placeholder='Full Name' required/>
+            <input type='email' name='email' placeholder='Valid Email Address' required />
             <textarea name='message' rows='7' placeholder='Type Message Here' required ></textarea>
-            <button type='submit' onClick="window.location.reload();" className='btn btn-primary'>Send Message</button>
+            <button type='submit' className='btn btn-primary'>Send Message</button>
 
-                {/* onClick={sendEmail} <<<<===== That's what's supposed to be in the above code*/}
+                {/* onClick={sendEmail} << window.location.reload();<<===== That's what's supposed to be in the above code*/}
           </form>
       </ div>
 

@@ -36,7 +36,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui amet nemo aliquam, totam aliquid ut quidem? Numquam, assumenda! Facilis expedita modi sapiente voluptatum unde delectus reiciendis. Repellendus, sunt error? Corporis.
+            I am a young motivated and skilled full stack web developer, using the latest technologies to solve real life problems. I have 
+            serious passion for UI effects, animations and creating intuitive, dynamic user experienced websites. 
+            
+            I'm currently focused on building SEO friendly websites and also intergrating Web3 applications for companies/individual by bringing 
+            real life implementation experience in API based integration, visual layout development and UI design implementations.
+
 
           </p>
           <a href='#contact' className='btn btn-primary about__btn'>Get In Touch >>></a>
