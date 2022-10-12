@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './index.css'
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
@@ -11,19 +11,22 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 const App = () => {
+
+  const [show, setShow] = useState(true);
+
   return (
-    <div>
-     <Header />
-     <Nav />
+    <React.Fragment>
+     <Header/>
+     <Nav /> 
      <About />
      <Experience />
      <Services />
      <Portfolio />
-     <Testimonials />
+      <Testimonials />
      <Contact />
-     <Footer />
+      <Footer />
      
-    </div>
+    </React.Fragment>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './testimonials.css'
 import AVATAR1 from '../../assets/assets_2/avatar1.jpg'
 import AVATAR2 from '../../assets/assets_2/avatar2.jpeg'
-import AVATAR3 from '../../assets/assets_2/avatar3.jpg'
+// import AVATAR3 from '../../assets/assets_2/avatar3.jpg'
 
 
 import { Pagination} from 'swiper';
@@ -20,20 +20,20 @@ const data=[
   },
   {
     avatar: AVATAR1,
-    name:'Esther Paul',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
+    name:'Alawiye Kayode',
+    review: 'Working as a junior developer, Oluwarotimi has shown all form of seriousness, zeal and pivoted attitude towards building websites and creating contents. He handles all barricades and impediments faced while building; debugging and searching for solutions to all issues faced while writing codes. I like working with relentless and great minds like that of Oluwarotimi. Having him on your team will bring positivity!'
   },
-  {
-    avatar: AVATAR3,
-    name:'Alwawiye Kayode',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
-  }
+  // {
+  //   avatar: AVATAR3,
+  //   name:'Alwawiye Kayode',
+  //   review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
+  // }
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Client's Review</h5>
+      <h5>Some Reviews</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container mySwiper"

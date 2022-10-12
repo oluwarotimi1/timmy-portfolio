@@ -1,6 +1,7 @@
 .container.testimonials__container{
     width: 40%;
     padding-bottom: 4rem ;
+    max-height: 20%;
 }
 .client__avatar{
     width: 40%;
@@ -16,6 +17,9 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    /* max-height: 25rem; */
+    /* overflow: hidden; */
+    
 }
 .client__review{
     color: var(--color-light);

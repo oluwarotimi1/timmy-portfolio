@@ -72,6 +72,8 @@ const Portfolio = () => {
           </div>
          </article>
       </div>
+
+        
     </section>
   )
 }
