@@ -16,42 +16,42 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon'  />
               <div>
               <h4> HTML</h4>
-              <small className='text-light'>Experienced</small>
+              
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> CSS</h4>
-              <small className='text-light'>Intermediate</small>
+             
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
               <h4> JAVASCRIPT</h4>
-              <small className='text-light'>Intermediate</small>
+             
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> REACT</h4>
-              <small className='text-light'>Experienced</small>
+              
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
               <h4> BOOTSTRAP</h4>
-              <small className='text-light'>Experienced</small>
+              
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> MATERIAL UI</h4>
-              <small className='text-light'>Intermediate</small>
+             
               </div>
             </article>
           </div>
@@ -66,21 +66,20 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> Node JS</h4>
-              <small className='text-light'>Intermediate</small>
+             
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> FIREBASE</h4>
-              <small className='text-light'>Intermediate</small>
+             
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4> SOLIDITY</h4>
-              <small className='text-light'>Basic</small>
               </div>
             </article> 
           </div>

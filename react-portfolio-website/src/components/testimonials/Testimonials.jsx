@@ -1,7 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 import AVATAR1 from '../../assets/assets_2/avatar1.jpg'
-import AVATAR2 from '../../assets/assets_2/avatar2.jpg'
+import AVATAR2 from '../../assets/assets_2/avatar2.jpeg'
 import AVATAR3 from '../../assets/assets_2/avatar3.jpg'
 
 
@@ -16,7 +16,7 @@ const data=[
   {
     avatar: AVATAR2,
     name:'Daniel Akinwande',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, tempora nemo? Esse cum quas repudiandae, dolore quia quisquam beatae nihil minus labore, odit officiis laudantium, ratione architecto quis repellat quaerat.'
+    review: 'It’s a pleasure for me to recommend Oluwarotimi to all interested parties. He was professional and competent throughout the process of our working together. The reaction to our new web site has been amazing. The same can be said for our opinion of Rotimi’s work for us. Thanks once again for your patience and diligence in promptly meeting each of our requests for the site during its development.'
   },
   {
     avatar: AVATAR1,

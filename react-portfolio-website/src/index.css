@@ -23,9 +23,9 @@
 html{
     scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     display: none;
-}
+} */
 body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
@@ -106,7 +106,7 @@ img{
         width: var(--container-width-md);
     }
     section{
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 }
 
