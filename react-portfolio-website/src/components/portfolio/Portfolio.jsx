@@ -98,7 +98,7 @@ const Portfolio = () => {
             <img src={img6} alt='' />
           </div>
           <div className="portfolio__item-cta">
-             <h3>Weather Application </h3>
+             <h3>Weather Application</h3>
             <a href="https://super-pudding-7cb3b2.netlify.app/" className='btn btn-primary' target='_blank'> Visit Site</a>
           </div>
          </article>
