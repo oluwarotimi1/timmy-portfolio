@@ -60,7 +60,7 @@ const Portfolio = () => {
             <img src={img2} alt='' />
           </div>
           <div className="portfolio__item-cta">
-            <h3>Bootcamp Website To Becoming A Web Developer</h3>
+            <h3>Bootcamp Website To Becoming A Web Developer </h3>
             <a href="https://compassionate-snyder-6040d4.netlify.app/" className='btn btn-primary' target='_blank'> Visit Site</a>
           </div>
          </article>
